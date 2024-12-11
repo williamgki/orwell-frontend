@@ -59,7 +59,7 @@ export default function Home() {
 
     try {
       // Replace with your Railway API URL
-      const response = await fetch('Yweb-production-46b5.up.railway.app/api/chat', {
+      const response = await fetch('web-production-46b5.up.railway.app/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ 
